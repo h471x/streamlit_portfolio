@@ -24,7 +24,7 @@ Hello! I'm **Hatix Ntsoa**, a passionate software developer specializing in Pyth
 Here are some of the projects I've worked on:
 
 - **[Git & GitHub CLI](https://github.com/h471x/git_gh)**: Simple automation scripts for Git and GitHub.
-- **[Markdown Previewer](https://github.com/h471x/markdown-previewer)**: A markdown note-taking tool that allows real-time markdown rendering.
+- **[Markdown Previewer](https://github.com/h471x/markdown_previewer)**: A markdown note-taking tool that allows real-time markdown rendering.
 - **[Password Generator](https://github.com/h471x/password_generator)**: A simple CLI tool to generate strong passwords.
 - **[Port Scanner](https://github.com/h471x/port_scanner)**: A CLI tool to scan open ports on a network.
 - **[Web Scraper](https://github.com/h471x/web_scraper)**: A CLI tool to scrape data from websites.
