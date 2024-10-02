@@ -117,7 +117,7 @@ st.markdown(
     )}
 
     {custom_link(
-        "● [markdown_previewer](https://github.com/h471x/markdown-previewer) : A markdown note-taking tool."
+        "● [markdown_previewer](https://github.com/h471x/markdown_previewer) : A markdown note-taking tool."
     )}
 
     {custom_link(
