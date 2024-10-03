@@ -56,6 +56,16 @@ css_styles = f"""
     height: 200px;
     object-fit: cover;
   }}
+
+  .footer{{
+    text-align: center;
+    font-size: 16px;
+  }}
+
+  .highlight{{
+    font-weight: bold;
+    color: #2e9aff;
+  }}
   </style>
 
   <script>

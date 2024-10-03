@@ -15,14 +15,14 @@ html_portfolio = f"""
   #### <span>    ~ whoami </span>
   <p style="font-size: 20px;">
   Hello, I'm 
-  <span style="font-weight: bold; color: #2e9aff;">Hatix Ntsoa</span>,
-  a <span style="font-weight: bold; color: #2e9aff;">software developer</span>
+  <span class="highlight">Hatix Ntsoa</span>,
+  a <span class="highlight">software developer</span>
   specializing in <span style="font-weight: bold;">Python</span>,
   web  development,
-  and <span style="font-weight: bold; color: #2e9aff;">open-source</span> projects.<br><br>
-  I am a passionate <span style="font-weight: bold; color: #2e9aff;">cybersecurity</span> enthusiast
+  and <span class="highlight">open-source</span> projects.<br><br>
+  I am a passionate <span class="highlight">cybersecurity</span> enthusiast
   with a focused aspiration to become
-  a <span style="font-weight: bold; color: #2e9aff;">DevSecOps</span> professional.
+  a <span class="highlight">DevSecOps</span> professional.
   </p>
 
   <br>
@@ -60,7 +60,7 @@ html_portfolio = f"""
 
   <br><br>
 
-  <div style="text-align: center; font-size: 16px;">
+  <div class="footer">
     Copyright © 2024 h471x
   </div>
 """
