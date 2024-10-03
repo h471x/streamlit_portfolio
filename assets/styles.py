@@ -67,11 +67,4 @@ css_styles = f"""
     color: #2e9aff;
   }}
   </style>
-
-  <script>
-  // Hide the header immediately on load
-  document.addEventListener("DOMContentLoaded", function() {{
-      document.querySelector("header").style.display = "none";
-  }});
-  </script>
 """
