@@ -4,8 +4,8 @@ from sys import path
 from os.path import abspath as abs, join as jn, dirname as dir
 path.append(abs(jn(dir(__file__))))
 
-from styles import css_styles
-from html_contents import html_portfolio
+from assets.styles import css_styles
+from assets.html_contents import html_portfolio
 
 pic_path = "imgs/logo.png"
 

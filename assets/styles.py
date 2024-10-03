@@ -1,8 +1,8 @@
 from sys import path
 from os.path import abspath as abs, join as jn, dirname as dir
-path.append(abs(jn(dir(__file__))))
+path.append(abs(jn(dir(__file__), "..")))
 
-from utils import file_to_base64
+from utils.utils import file_to_base64
 
 # Path to the local files
 font_path = "font/NerdFont.ttf"
