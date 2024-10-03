@@ -57,7 +57,7 @@ To run this Streamlit portfolio application locally, follow these steps:
 
 3. **Run the Streamlit app**:
    ```bash
-   streamlit run app.py
+   streamlit run portfolio.py
    ```
 
 4. **Open your browser**: 
