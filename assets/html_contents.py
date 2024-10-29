@@ -56,7 +56,7 @@ html_portfolio = f"""
   <br>
 
   #### <span>    ~ cat reachme </span>
-  <span style="font-size: 20px;">Feel free to reach me out via [Gmail](mailto:hatixntsoa@gmail.com), [LinkedIn](https://www.linkedin.com/in/h471x) or [GitHub](https://github.com/h471x).</span>
+  <span style="font-size: 20px;">Feel free to reach me out via [Gmail](mailto:hatixntsoa@gmail.com), [LinkedIn](https://www.linkedin.com/in/hatixntsoa) or [GitHub](https://github.com/h471x).</span>
 
   <br><br>
 
