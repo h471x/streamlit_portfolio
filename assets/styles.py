@@ -11,6 +11,19 @@ font = file_to_base64(font_path)
 
 css_styles = f"""
   <style>
+  /* root element for theme changing */
+  :root {{
+    --primary-color: #c9d1d9;
+    --background-color: #010409;
+    --highlight-color: #2e9aff;
+  }}
+
+  .lightmode {{
+    --primary-color: #252525;
+    --background-color: #dddddd;
+    --highlight-color: #0969da;
+  }}
+
   /* Hide the Streamlit menu */
   header {{display: none; visibility: hidden;}}
 
@@ -29,13 +42,13 @@ css_styles = f"""
     box-sizing: border-box; */
     font-family: 'NerdFont', monospace !important;
     user-select: none;
-    color: #c9d1d9;
+    color: var(--primary-color);
     */overflow: hidden !important;*/
   }}
 
   /* Set the background color to black */
   .stApp {{
-    background-color: #010409;
+    background-color: var(--background-color);
     /* display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -57,14 +70,20 @@ css_styles = f"""
     object-fit: cover;
   }}
 
-  .footer{{
+  .footer {{
     text-align: center;
     font-size: 16px;
   }}
 
-  .highlight{{
+  .highlight {{
     font-weight: bold;
-    color: #2e9aff;
+    color: var(--highlight-color);
+  }}
+
+  /* Apply colors for links */
+  .custom-link {{
+    font-weight: bold;
+    color: var(--highlight-color) !important;
   }}
   </style>
 """

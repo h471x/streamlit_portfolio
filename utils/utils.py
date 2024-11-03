@@ -8,5 +8,5 @@ def file_to_base64(file_path: str) -> str:
     return encoded_file
 
 # generate customized link
-def custom_link(link: str) -> str:
-    return f"""<span style="font-size: 18px;">{link}</span>"""
+def custom_link(link: str, name: str, description: str = "") -> str:
+    return f"""<span style="font-size: 18px;"><a href='{link}' class='custom-link'>{name}</a>{description}</span>"""

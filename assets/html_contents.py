@@ -28,35 +28,52 @@ html_portfolio = f"""
   <br>
 
   #### <span>    ~ cat projects </span>
-
-  {custom_link(
-      "● [Git & GitHub CLI](https://github.com/h471x/git_gh) : Simple Automation Scripts."
+  
+  ● {custom_link(
+    "https://github.com/h471x/git_gh",
+    "Git & GitHub CLI",
+    " : Simple Automation Scripts."
   )}
 
-  {custom_link(
-      "● [markdown_previewer](https://github.com/h471x/markdown_previewer) : A markdown note-taking tool."
+  ● {custom_link(
+    "https://github.com/h471x/markdown_previewer",
+    "markdown_previewer",
+    " : A markdown note-taking tool."
   )}
 
-  {custom_link(
-      "● [password_generator](https://github.com/h471x/password_generator) : A Simple CLI Tool to generate passwords."
+  ● {custom_link(
+    "https://github.com/h471x/password_generator",
+    "password_generator",
+    " : A Simple CLI Tool to generate passwords."
   )}
 
-  {custom_link(
-      "● [port_scanner](https://github.com/h471x/port_scanner) : A Simple CLI Tool to scan open ports."
+  ● {custom_link(
+    "https://github.com/h471x/port_scanner",
+    "port_scanner",
+    " : A Simple CLI Tool to scan open ports."
   )}
 
-  {custom_link(
-      "● [web_scraper](https://github.com/h471x/web_scraper) : A Simple CLI Tool to srap the web."
+  ● {custom_link(
+    "https://github.com/h471x/web_scraper",
+    "web_scraper",
+    " : A Simple CLI Tool to srap the web."
   )}
 
-  {custom_link(
-      "● [whois_lookup](https://github.com/h471x/whois_lookup) : A Simple CLI Tool to perform whois lookup."
+  ● {custom_link(
+    "https://github.com/h471x/whois_lookup",
+    "whois_lookup",
+    " : A Simple CLI Tool to perform whois lookup."
   )}
 
   <br>
 
   #### <span>    ~ cat reachme </span>
-  <span style="font-size: 20px;">Feel free to reach me out via [Gmail](mailto:hatixntsoa@gmail.com), [LinkedIn](https://www.linkedin.com/in/hatixntsoa) or [GitHub](https://github.com/h471x).</span>
+  <span style="font-size: 20px; display: inline;">
+    Feel free to reach me out via
+    {custom_link("mailto:hatixntsoa@gmail.com", "Gmail")},
+    {custom_link("https://www.linkedin.com/in/hatixntsoa", "LinkedIn")} or
+    {custom_link("https://github.com/h471x", "GitHub")}.
+  </span>
 
   <br><br>
 
